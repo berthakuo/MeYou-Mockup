@@ -1,0 +1,175 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+/*.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}*/
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     line-height: 1.4;
+     font-family: 'Lato', sans-serif;
+     font-weight: 400;
+     width:960px;
+     margin: auto;
+     background-color: #f7f6f1;
+}
+
+.main {
+     height:400px;
+}
+
+.box{
+     height:100px;
+     width:100px;
+     border:solid 1px black;
+}
+
+.row{
+     border-bottom: solid 1px #dbdbdb;
+}
+
+.jumbotron{
+     background:url("../images/people.jpeg");
+     background-size:cover;
+}
+
+.img-circle{
+     width:150px;
+     height:150px;
+     border-radius: 100px;
+}
+
+h2{
+     text-transform: uppercase;
+     color:#4c7898;
+}
+
+h3{
+     font-weight: bold;
+}
+
+h5{
+     font-size: 2em;
+     margin-bottom: 10px;
+}
+
+.btn-default{
+     color:#4c7898;
+
+}
+
+/*.scene {
+  position:absolute;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+  right:0;
+  border-bottom:100px solid #342a2a;
+  height:800px;
+}
+.scene > div {
+  position:absolute;
+  bottom:0;
+}
+.ground {
+  width:100%;
+  height:30px;
+  background:#1d1818;
+  z-index:999;
+}
+.scene > div.clouds {
+  width:895px;
+  left:50%;
+  margin-left:-447px;
+  height:255px;
+  bottom:250px;
+  background:url(http://i.imgur.com/WYfbo0O.png) no-repeat center;
+}
+.scene div.trees {
+  width:908px;
+  height:174px;
+  background:url(http://i.imgur.com/4JOfJhg.png) no-repeat center;
+  z-index:100;
+  left:50%;
+  bottom:20px;
+  margin-left:-454px;
+}
+.scene div.grass {
+  width:964px;
+  height:37px;
+  z-index:200;
+  left:50%;
+  bottom:20px;
+  margin-left:-482px;
+  background:url(http://i.imgur.com/h0aXbZr.png) no-repeat center;
+}
+.buildings {  
+  width:763px;
+  height:303px;  
+  left:50%;
+  margin-left:-400px;
+  background:url(http://i.imgur.com/5LmAigM.png) no-repeat center;
+ }
+*/
+ .wrap-around{
+     height:600px;
+ }
+
+ li, ul{
+     list-style: none;
+     padding-left: 0;
+ }
+
+ footer{
+     background-color: black;
+ }
+
+ .row {
+     padding-bottom: 20px;
+ }
+
+ .carousel h3{
+     font-size: 4em;
+     text-transform: uppercase;
+ }
+
+.carousel p{
+     font-size: 1.5em;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+
